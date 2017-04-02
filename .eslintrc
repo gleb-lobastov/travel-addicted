@@ -1,0 +1,18 @@
+{
+   "extends": "airbnb",
+   "rules": {
+      "strict": 0,
+      "no-unused-vars": ["error", { "ignoreRestSiblings": true }]
+   },
+   "parser": "babel-eslint",
+   "import/resolver": {
+      "webpack": { "config": "webpack/webpack.config.babel.js" }
+    },
+   "settings": {
+      "import/resolver": {
+         "webpack": {
+            "config": "webpack/webpack.config.babel.js"
+         }
+      }
+   }
+}
