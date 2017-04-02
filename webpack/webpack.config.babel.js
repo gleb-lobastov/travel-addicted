@@ -48,9 +48,9 @@ export default {
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.scss', '.css'],
     alias: {
-      tools: path.resolve(__dirname, '../app/tools'),
-      lib: path.resolve(__dirname, '../app/lib'),
-      components: path.resolve(__dirname, '../app/components'),
+      tools: path.resolve(__dirname, '../src/tools'),
+      lib: path.resolve(__dirname, '../src/lib'),
+      components: path.resolve(__dirname, '../src/components'),
     },
   },
   devServer: {
