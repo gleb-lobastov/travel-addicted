@@ -1,0 +1,7 @@
+--compilers js:babel-core/register
+--require source-map-support
+--require babel-register
+--require babel-polyfill
+--require ./test/init.js
+--recursive
+./src/**/*.spec.js

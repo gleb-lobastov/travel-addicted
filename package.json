@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Travel statistics and blog app, based on react and redux",
   "scripts": {
+    "test": "set NODE_ENV=test&& set NODE_PATH=./src&& mocha --opts ./mocha.opts",
     "start": "set NODE_ENV=development&& webpack-dev-server --port 3000 --config ./webpack/webpack.config.babel.js",
     "build": "webpack --config ./webpack/webpack.config.babel.js"
   },
