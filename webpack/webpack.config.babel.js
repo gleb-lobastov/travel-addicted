@@ -10,7 +10,7 @@ export default {
     './client.jsx',
   ],
   output: {
-    path: __dirname + '/../dist/',
+    path: path.resolve(__dirname, '/../dist/'),
     publicPath: '/dist',
     filename: 'bundle.js',
     sourceMapFilename: '[name].js.map',
